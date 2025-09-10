@@ -4,11 +4,13 @@
 
 Для запуска системы необходимо склонировать 3 репозитория:
 
-1. **infra** - инфраструктурные компоненты (базы данных, очереди, etc.)
-2. **api-service** - основной API сервис
-3. **booking-service** - сервис бронирования
+1. [**booking-system-infra**](https://github.com/Booking-System-Org/booking-system-infra) - инфраструктурные компоненты (базы данных, очереди, etc.)
+2. [**api-service**](https://github.com/Booking-System-Org/api-service) - основной API сервис
+3. [**booking-service**](https://github.com/Booking-System-Org/booking-service) - сервис бронирования
 
 ## Порядок запуска
+
+Каждый микросервис содержит инструкцию по запуску в README-файле.
 
 Запускать сервисы необходимо в следующем порядке:
 
